@@ -1,0 +1,53 @@
+###########################
+### Problem information ###
+###########################
+problem_type = "ShockTube"
+
+##############################
+### Spatial discretization ###
+##############################
+grid_start = 0 0 0
+number_cells = 15 15 15 
+domain_length = 1.0 1.0 1.0
+# number_cells = 63 63 63
+# domain_length = 0.984375 0.984375 0.984375
+
+
+###########################
+### Time discretization ###
+###########################
+dt = 1.0e-5
+number_time_steps = 100
+final_time = 1e-05
+
+##############
+### Solver ###
+##############
+use_PPMlimiter = 1
+use_DClimiting = 0
+use_slopeFlattening = 1
+use_artificialViscosity = 1
+artificialViscosityCoeff = 0.3
+
+##########################
+### Initial Conditions ###
+##########################
+SHOCK.pressureLow = 12428.620704223033
+SHOCK.pressureHigh = 101000.00408924477
+SHOCK.densityLow = 0.1114562558445285
+SHOCK.densityHigh = 0.8488897308955478
+SHOCK.quadrant = -1 0 0
+SHOCK.location = 0.5644092376577732
+GP.gamma = 1.4043937125043828
+
+################
+### Plotting ###
+################
+plotting_interval = 1
+plotting_prefix = "plot/member_001/"
+
+###############
+### Restart ###
+###############
+use_restart = true
+restart_file = "plot/member_001/ShockTube_3d_000000.cgns"

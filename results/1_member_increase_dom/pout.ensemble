@@ -1,0 +1,98 @@
+SEED=1
+N=1
+BASE_LOC=0.5
+LOC_SIGMA=0.05
+BASE_PLOW=10000
+BASE_PHIGH=100000
+BASE_RLOW=0.125
+BASE_RHIGH=1.0
+BASE_GAMMA=1.4
+P_SIG=0.15
+RHO_SIG=0.15
+GAMMA_SIG=0.1
+Running: srun --mpi=cray_shasta -n 1 ./main_cpu ensemble/member_001/ShockTube.input
+=> Parallel mode
+-> Processing element 0 of 0 (1 total)
+   Hostname --------------------------- nid004556
+   PID -------------------------------- 1496860
+
+=> Parameters
+
+-> User define macros
+
+-> Parameters for 'plot'
+   Plot prefix: ----------------------- plot/member_001/ShockTube
+   Plot interval: --------------------- 1
+
+-> Parameters for 'grid'
+   Number of cells: ------------------- (31,31,31)
+   Computational domain start: -------- (0,0,0)
+   Computational domain length: ------- (1,1,1)
+   Fixed dx: -------------------------- (0.0322581,0.0322581,0.0322581)
+
+-> Parameters for 'solver'
+   Time integration method: ----------- RK4
+   Fixed dt: -------------------------- 1e-05
+   Initial time: ---------------------- 0
+   Maximum steps: --------------------- 1
+   Limiter: --------------------------- 1
+   Slope Flattening: ------------------ 1
+   DC limiting: ----------------------- 0
+   Artificial Viscosity: -------------- 1
+   Artificial Viscosity Coeff: -------- 0.3
+   Memory Exchange Model: ------------- SHMEM
+   Problem: --------------------------- ShockTube
+
+-> Local domain info
+   Face bounding box: ----------------- (0,0,0):(31,31,31)
+   Face number of valid bricks: ------- 512
+   Face number of core bricks: -------- 512
+   Face number of ghost bricks: ------- 0
+   Cell bounding box: ----------------- (0,0,0):(30,30,30)
+   Cell number of bricks: ------------- 512
+
+-> Global domain info
+   Face number of valid bricks: ------- 512
+   Face number of core bricks: -------- 512
+   Face number of ghost bricks: ------- 0
+
+-> Conservation reference
+   Initial mass: ---------------------- 4.920670816773398e-01
+   Initial x-momentum: ---------------- 0.000000000000000e+00
+   Initial y-momentum: ---------------- 0.000000000000000e+00
+   Initial z-momentum: ---------------- 0.000000000000000e+00
+
+=> Begin computation
+   coarse time step    0 old time 0.000000e+00 old dt 1.000000e-05
+-> final time 1.000000e-05
+
+=> End computation
+
+   Total Mass difference: ------------- -3.508304757815495e-14
+   Relative Mass difference: ---------- -7.129728625326384e-14
+
+   Total X-momentum difference: ------- 8.857138338502981e-01
+   Relative X-momentum difference: ---- 1.000000000000000e+00
+
+   Total Y-momentum difference: ------- -1.085841402532927e-17
+   Relative Y-momentum difference: ---- 1.000000000000000e+00
+
+   Total Z-momentum difference: ------- -1.085841402532927e-17
+   Relative Z-momentum difference: ---- 1.000000000000000e+00
+
+-> EulerOperator Timings
+   Time for Kernels ------------------- 0.000000000000000e+00 s
+   Time for Exchanges ----------------- 0.000000000000000e+00 s
+   IO all: ---------------------------- 0.100624 (s)
+   IO structure 1: -------------------- 0.0181533 (s)
+   IO structure 2: -------------------- 0.0334174 (s)
+   IO structure 2a: ------------------- 0.0220207 (s)
+   IO solution 1: --------------------- 0.0344669 (s)
+   IO solution 1a: -------------------- 0.0127616 (s)
+   IO solution 2: --------------------- 0.00897365 (s)
+   IO solution 2a: -------------------- 1.2e-07 (s)
+
+-> Timings
+   Time for advance ------------------- 2.16202 s
+   Total run time --------------------- 3.19286 s
+Ensemble complete.

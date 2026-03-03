@@ -1,0 +1,98 @@
+------------------------------------------------------------
+Member:        member_001
+Input:         ensemble/member_001/ShockTube.input
+Restart file:  plot/member_001/ShockTube_3d_000000.cgns
+dt:            1.0e-5
+nsteps:        1
+final_time:    1e-05
+RUN:           srun --mpi=cray_shasta -n 1 ./main_cpu ensemble/member_001/ShockTube.input
+------------------------------------------------------------
+=> Parallel mode
+-> Processing element 0 of 0 (1 total)
+   Hostname --------------------------- nid004556
+   PID -------------------------------- 1496935
+
+Restart file: plot/member_001/ShockTube_3d_000000.cgns
+
+=> Parameters
+
+-> User define macros
+
+-> Parameters for 'plot'
+   Plot prefix: ----------------------- plot/member_001/ShockTube
+   Plot interval: --------------------- 1
+
+-> Parameters for 'grid'
+   Number of cells: ------------------- (31,31,31)
+   Computational domain start: -------- (0,0,0)
+   Computational domain length: ------- (1,1,1)
+   Fixed dx: -------------------------- (0.0322581,0.0322581,0.0322581)
+
+-> Parameters for 'solver'
+   Time integration method: ----------- RK4
+   Fixed dt: -------------------------- 1e-05
+   Initial time: ---------------------- 0
+   Maximum steps: --------------------- 1
+   Limiter: --------------------------- 1
+   Slope Flattening: ------------------ 1
+   DC limiting: ----------------------- 0
+   Artificial Viscosity: -------------- 1
+   Artificial Viscosity Coeff: -------- 0.3
+   Memory Exchange Model: ------------- SHMEM
+   Problem: --------------------------- ShockTube
+
+-> Local domain info
+   Face bounding box: ----------------- (0,0,0):(31,31,31)
+   Face number of valid bricks: ------- 512
+   Face number of core bricks: -------- 512
+   Face number of ghost bricks: ------- 0
+   Cell bounding box: ----------------- (0,0,0):(30,30,30)
+   Cell number of bricks: ------------- 512
+
+-> Global domain info
+   Face number of valid bricks: ------- 512
+   Face number of core bricks: -------- 512
+   Face number of ghost bricks: ------- 0
+Restart metadata: time=0 idxStep=0 dt(input)=1e-05 finalTime=1e-05
+
+-> Conservation reference
+   Initial mass: ---------------------- 4.920670816773398e-01
+   Initial x-momentum: ---------------- 0.000000000000000e+00
+   Initial y-momentum: ---------------- 0.000000000000000e+00
+   Initial z-momentum: ---------------- 0.000000000000000e+00
+
+=> Begin computation
+   coarse time step    0 old time 0.000000e+00 old dt 1.000000e-05
+-> Reached maximum time: 1.000000e-05
+-> final time 1.000000e-05
+
+=> End computation
+
+   Total Mass difference: ------------- -3.508304757815495e-14
+   Relative Mass difference: ---------- -7.129728625326384e-14
+
+   Total X-momentum difference: ------- 8.857138338502981e-01
+   Relative X-momentum difference: ---- 1.000000000000000e+00
+
+   Total Y-momentum difference: ------- -1.085841402532927e-17
+   Relative Y-momentum difference: ---- 1.000000000000000e+00
+
+   Total Z-momentum difference: ------- -1.085841402532927e-17
+   Relative Z-momentum difference: ---- 1.000000000000000e+00
+
+-> EulerOperator Timings
+   Time for Kernels ------------------- 0.000000000000000e+00 s
+   Time for Exchanges ----------------- 0.000000000000000e+00 s
+   IO all: ---------------------------- 0.0873984 (s)
+   IO structure 1: -------------------- 0.0157428 (s)
+   IO structure 2: -------------------- 0.032918 (s)
+   IO structure 2a: ------------------- 0.0217643 (s)
+   IO solution 1: --------------------- 0.027641 (s)
+   IO solution 1a: -------------------- 0.0120549 (s)
+   IO solution 2: --------------------- 0.00697663 (s)
+   IO solution 2a: -------------------- 9.2e-08 (s)
+
+-> Timings
+   Time for advance ------------------- 2.14608 s
+   Total run time --------------------- 3.19299 s
+Forecast ensemble complete.

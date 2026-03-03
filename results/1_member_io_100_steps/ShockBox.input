@@ -1,0 +1,33 @@
+###########################
+### Problem information ###
+###########################
+problem_type = "ShockBox"
+
+##############################
+### Spatial discretization ###
+##############################
+grid_start = 0 0 0
+number_cells = 15 15 15
+domain_length = 1.0 1.0 1.0
+
+###########################
+### Time discretization ###
+###########################
+dt = 3.0e-4
+number_time_steps = 17
+#final_time = 0.1
+
+##############
+### Solver ###
+##############
+use_PPMlimiter = 1
+
+##########################
+### Initial Conditions ###
+##########################
+
+SHOCK.quadrant = 0 0 0
+SHOCK.pressureLow = 101325.0
+SHOCK.pressureHigh = 405300.0
+SHOCK.densityLow = 1.225
+SHOCK.densityHigh = 4.9

@@ -1,0 +1,28 @@
+###########################
+### Problem information ###
+###########################
+problem_type = "GaussianPulse"
+
+##############################
+### Spatial discretization ###
+##############################
+grid_start = 0 0 0
+number_cells = 15 15 15
+domain_length = 1.0 1.0 1.0
+
+###########################
+### Time discretization ###
+###########################
+dt = 1.0
+number_time_steps = 2
+final_time = 1.0
+
+##############
+### Solver ###
+##############
+use_PPMlimiter = 0
+
+################
+### Plotting ###
+################
+plotting_interval = 16
