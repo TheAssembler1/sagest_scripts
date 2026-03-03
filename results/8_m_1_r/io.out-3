@@ -1,0 +1,392 @@
+=> Parallel mode
+-> Processing element 0 of 0 (1 total)
+   Hostname --------------------------- nid004379
+   PID -------------------------------- 294045
+
+=> Parameters
+
+-> User define macros
+
+-> Parameters for 'plot'
+   Plot prefix: ----------------------- plot/member_003/ShockTube
+   Plot interval: --------------------- 1
+
+-> Parameters for 'grid'
+   Number of cells: ------------------- (31,31,31)
+   Computational domain start: -------- (0,0,0)
+   Computational domain length: ------- (1,1,1)
+   Fixed dx: -------------------------- (0.0322581,0.0322581,0.0322581)
+
+-> Parameters for 'solver'
+   Time integration method: ----------- RK4
+   Fixed dt: -------------------------- 1e-05
+   Initial time: ---------------------- 0
+   Maximum steps: --------------------- 100
+   Limiter: --------------------------- 1
+   Slope Flattening: ------------------ 1
+   DC limiting: ----------------------- 0
+   Artificial Viscosity: -------------- 1
+   Artificial Viscosity Coeff: -------- 0.3
+   Memory Exchange Model: ------------- SHMEM
+   Problem: --------------------------- ShockTube
+[0]:[IO]:(196.166ms) compute before creating plot directory
+[0]:[IO]:(0.258ms) plot directory creation
+
+-> Local domain info
+   Face bounding box: ----------------- (0,0,0):(31,31,31)
+   Face number of valid bricks: ------- 512
+   Face number of core bricks: -------- 512
+   Face number of ghost bricks: ------- 0
+   Cell bounding box: ----------------- (0,0,0):(30,30,30)
+   Cell number of bricks: ------------- 512
+
+-> Global domain info
+   Face number of valid bricks: ------- 512
+   Face number of core bricks: -------- 512
+   Face number of ghost bricks: ------- 0
+
+-> Conservation reference
+   Initial mass: ---------------------- 6.071324465657554e-01
+   Initial x-momentum: ---------------- 0.000000000000000e+00
+   Initial y-momentum: ---------------- 0.000000000000000e+00
+   Initial z-momentum: ---------------- 0.000000000000000e+00
+[0]:[IO]:(25.785ms) compute before write cgns grid files
+[0]:[IO]:(51.737ms) write cgns grid files
+[0]:[IO]:(0.000ms) compute before write initial solution files
+[0]:[IO]:(20.143ms) IO: write cgns solution files
+
+=> Begin computation
+   coarse time step    0 old time 0.000000e+00 old dt 1.000000e-05
+[0]:[IO]:(2141.300ms) compute before cngns write actual solution file
+[0]:[IO]:(15.200ms) cngns write actual solution file
+   coarse time step    1 old time 1.000000e-05 old dt 1.000000e-05
+[0]:[IO]:(2148.028ms) compute before cngns write actual solution file
+[0]:[IO]:(13.466ms) cngns write actual solution file
+   coarse time step    2 old time 2.000000e-05 old dt 1.000000e-05
+[0]:[IO]:(2157.912ms) compute before cngns write actual solution file
+[0]:[IO]:(15.516ms) cngns write actual solution file
+   coarse time step    3 old time 3.000000e-05 old dt 1.000000e-05
+[0]:[IO]:(2152.987ms) compute before cngns write actual solution file
+[0]:[IO]:(15.164ms) cngns write actual solution file
+   coarse time step    4 old time 4.000000e-05 old dt 1.000000e-05
+[0]:[IO]:(2147.824ms) compute before cngns write actual solution file
+[0]:[IO]:(14.883ms) cngns write actual solution file
+   coarse time step    5 old time 5.000000e-05 old dt 1.000000e-05
+[0]:[IO]:(2148.444ms) compute before cngns write actual solution file
+[0]:[IO]:(14.736ms) cngns write actual solution file
+   coarse time step    6 old time 6.000000e-05 old dt 1.000000e-05
+[0]:[IO]:(2149.898ms) compute before cngns write actual solution file
+[0]:[IO]:(15.108ms) cngns write actual solution file
+   coarse time step    7 old time 7.000000e-05 old dt 1.000000e-05
+[0]:[IO]:(2151.891ms) compute before cngns write actual solution file
+[0]:[IO]:(15.423ms) cngns write actual solution file
+   coarse time step    8 old time 8.000000e-05 old dt 1.000000e-05
+[0]:[IO]:(2154.110ms) compute before cngns write actual solution file
+[0]:[IO]:(13.874ms) cngns write actual solution file
+   coarse time step    9 old time 9.000000e-05 old dt 1.000000e-05
+[0]:[IO]:(2156.969ms) compute before cngns write actual solution file
+[0]:[IO]:(20.393ms) cngns write actual solution file
+   coarse time step   10 old time 1.000000e-04 old dt 1.000000e-05
+[0]:[IO]:(2160.864ms) compute before cngns write actual solution file
+[0]:[IO]:(15.357ms) cngns write actual solution file
+   coarse time step   11 old time 1.100000e-04 old dt 1.000000e-05
+[0]:[IO]:(2159.934ms) compute before cngns write actual solution file
+[0]:[IO]:(13.772ms) cngns write actual solution file
+   coarse time step   12 old time 1.200000e-04 old dt 1.000000e-05
+[0]:[IO]:(2164.671ms) compute before cngns write actual solution file
+[0]:[IO]:(13.984ms) cngns write actual solution file
+   coarse time step   13 old time 1.300000e-04 old dt 1.000000e-05
+[0]:[IO]:(2171.321ms) compute before cngns write actual solution file
+[0]:[IO]:(13.722ms) cngns write actual solution file
+   coarse time step   14 old time 1.400000e-04 old dt 1.000000e-05
+[0]:[IO]:(2170.852ms) compute before cngns write actual solution file
+[0]:[IO]:(14.161ms) cngns write actual solution file
+   coarse time step   15 old time 1.500000e-04 old dt 1.000000e-05
+[0]:[IO]:(2172.982ms) compute before cngns write actual solution file
+[0]:[IO]:(13.743ms) cngns write actual solution file
+   coarse time step   16 old time 1.600000e-04 old dt 1.000000e-05
+[0]:[IO]:(2173.628ms) compute before cngns write actual solution file
+[0]:[IO]:(13.897ms) cngns write actual solution file
+   coarse time step   17 old time 1.700000e-04 old dt 1.000000e-05
+[0]:[IO]:(2174.370ms) compute before cngns write actual solution file
+[0]:[IO]:(14.057ms) cngns write actual solution file
+   coarse time step   18 old time 1.800000e-04 old dt 1.000000e-05
+[0]:[IO]:(2176.624ms) compute before cngns write actual solution file
+[0]:[IO]:(13.876ms) cngns write actual solution file
+   coarse time step   19 old time 1.900000e-04 old dt 1.000000e-05
+[0]:[IO]:(2177.393ms) compute before cngns write actual solution file
+[0]:[IO]:(14.071ms) cngns write actual solution file
+   coarse time step   20 old time 2.000000e-04 old dt 1.000000e-05
+[0]:[IO]:(2182.228ms) compute before cngns write actual solution file
+[0]:[IO]:(14.280ms) cngns write actual solution file
+   coarse time step   21 old time 2.100000e-04 old dt 1.000000e-05
+[0]:[IO]:(2184.512ms) compute before cngns write actual solution file
+[0]:[IO]:(13.616ms) cngns write actual solution file
+   coarse time step   22 old time 2.200000e-04 old dt 1.000000e-05
+[0]:[IO]:(2183.610ms) compute before cngns write actual solution file
+[0]:[IO]:(14.206ms) cngns write actual solution file
+   coarse time step   23 old time 2.300000e-04 old dt 1.000000e-05
+[0]:[IO]:(2186.039ms) compute before cngns write actual solution file
+[0]:[IO]:(13.850ms) cngns write actual solution file
+   coarse time step   24 old time 2.400000e-04 old dt 1.000000e-05
+[0]:[IO]:(2187.657ms) compute before cngns write actual solution file
+[0]:[IO]:(13.880ms) cngns write actual solution file
+   coarse time step   25 old time 2.500000e-04 old dt 1.000000e-05
+[0]:[IO]:(2181.972ms) compute before cngns write actual solution file
+[0]:[IO]:(14.051ms) cngns write actual solution file
+   coarse time step   26 old time 2.600000e-04 old dt 1.000000e-05
+[0]:[IO]:(2182.482ms) compute before cngns write actual solution file
+[0]:[IO]:(13.988ms) cngns write actual solution file
+   coarse time step   27 old time 2.700000e-04 old dt 1.000000e-05
+[0]:[IO]:(2183.167ms) compute before cngns write actual solution file
+[0]:[IO]:(13.722ms) cngns write actual solution file
+   coarse time step   28 old time 2.800000e-04 old dt 1.000000e-05
+[0]:[IO]:(2183.753ms) compute before cngns write actual solution file
+[0]:[IO]:(13.721ms) cngns write actual solution file
+   coarse time step   29 old time 2.900000e-04 old dt 1.000000e-05
+[0]:[IO]:(2183.169ms) compute before cngns write actual solution file
+[0]:[IO]:(14.268ms) cngns write actual solution file
+   coarse time step   30 old time 3.000000e-04 old dt 1.000000e-05
+[0]:[IO]:(2183.776ms) compute before cngns write actual solution file
+[0]:[IO]:(14.525ms) cngns write actual solution file
+   coarse time step   31 old time 3.100000e-04 old dt 1.000000e-05
+[0]:[IO]:(2184.485ms) compute before cngns write actual solution file
+[0]:[IO]:(13.961ms) cngns write actual solution file
+   coarse time step   32 old time 3.200000e-04 old dt 1.000000e-05
+[0]:[IO]:(2185.919ms) compute before cngns write actual solution file
+[0]:[IO]:(14.771ms) cngns write actual solution file
+   coarse time step   33 old time 3.300000e-04 old dt 1.000000e-05
+[0]:[IO]:(2183.381ms) compute before cngns write actual solution file
+[0]:[IO]:(270.572ms) cngns write actual solution file
+   coarse time step   34 old time 3.400000e-04 old dt 1.000000e-05
+[0]:[IO]:(2185.925ms) compute before cngns write actual solution file
+[0]:[IO]:(14.055ms) cngns write actual solution file
+   coarse time step   35 old time 3.500000e-04 old dt 1.000000e-05
+[0]:[IO]:(2186.243ms) compute before cngns write actual solution file
+[0]:[IO]:(13.557ms) cngns write actual solution file
+   coarse time step   36 old time 3.600000e-04 old dt 1.000000e-05
+[0]:[IO]:(2183.514ms) compute before cngns write actual solution file
+[0]:[IO]:(13.512ms) cngns write actual solution file
+   coarse time step   37 old time 3.700000e-04 old dt 1.000000e-05
+[0]:[IO]:(2182.078ms) compute before cngns write actual solution file
+[0]:[IO]:(14.149ms) cngns write actual solution file
+   coarse time step   38 old time 3.800000e-04 old dt 1.000000e-05
+[0]:[IO]:(2182.131ms) compute before cngns write actual solution file
+[0]:[IO]:(13.778ms) cngns write actual solution file
+   coarse time step   39 old time 3.900000e-04 old dt 1.000000e-05
+[0]:[IO]:(2183.809ms) compute before cngns write actual solution file
+[0]:[IO]:(14.311ms) cngns write actual solution file
+   coarse time step   40 old time 4.000000e-04 old dt 1.000000e-05
+[0]:[IO]:(2182.706ms) compute before cngns write actual solution file
+[0]:[IO]:(13.821ms) cngns write actual solution file
+   coarse time step   41 old time 4.100000e-04 old dt 1.000000e-05
+[0]:[IO]:(2183.895ms) compute before cngns write actual solution file
+[0]:[IO]:(13.721ms) cngns write actual solution file
+   coarse time step   42 old time 4.200000e-04 old dt 1.000000e-05
+[0]:[IO]:(2180.670ms) compute before cngns write actual solution file
+[0]:[IO]:(14.221ms) cngns write actual solution file
+   coarse time step   43 old time 4.300000e-04 old dt 1.000000e-05
+[0]:[IO]:(2180.539ms) compute before cngns write actual solution file
+[0]:[IO]:(13.996ms) cngns write actual solution file
+   coarse time step   44 old time 4.400000e-04 old dt 1.000000e-05
+[0]:[IO]:(2179.674ms) compute before cngns write actual solution file
+[0]:[IO]:(14.488ms) cngns write actual solution file
+   coarse time step   45 old time 4.500000e-04 old dt 1.000000e-05
+[0]:[IO]:(2180.211ms) compute before cngns write actual solution file
+[0]:[IO]:(14.553ms) cngns write actual solution file
+   coarse time step   46 old time 4.600000e-04 old dt 1.000000e-05
+[0]:[IO]:(2181.333ms) compute before cngns write actual solution file
+[0]:[IO]:(13.954ms) cngns write actual solution file
+   coarse time step   47 old time 4.700000e-04 old dt 1.000000e-05
+[0]:[IO]:(2180.739ms) compute before cngns write actual solution file
+[0]:[IO]:(14.025ms) cngns write actual solution file
+   coarse time step   48 old time 4.800000e-04 old dt 1.000000e-05
+[0]:[IO]:(2182.692ms) compute before cngns write actual solution file
+[0]:[IO]:(15.424ms) cngns write actual solution file
+   coarse time step   49 old time 4.900000e-04 old dt 1.000000e-05
+[0]:[IO]:(2181.033ms) compute before cngns write actual solution file
+[0]:[IO]:(13.973ms) cngns write actual solution file
+   coarse time step   50 old time 5.000000e-04 old dt 1.000000e-05
+[0]:[IO]:(2181.011ms) compute before cngns write actual solution file
+[0]:[IO]:(13.402ms) cngns write actual solution file
+   coarse time step   51 old time 5.100000e-04 old dt 1.000000e-05
+[0]:[IO]:(2181.984ms) compute before cngns write actual solution file
+[0]:[IO]:(15.611ms) cngns write actual solution file
+   coarse time step   52 old time 5.200000e-04 old dt 1.000000e-05
+[0]:[IO]:(2183.863ms) compute before cngns write actual solution file
+[0]:[IO]:(15.707ms) cngns write actual solution file
+   coarse time step   53 old time 5.300000e-04 old dt 1.000000e-05
+[0]:[IO]:(2185.285ms) compute before cngns write actual solution file
+[0]:[IO]:(13.589ms) cngns write actual solution file
+   coarse time step   54 old time 5.400000e-04 old dt 1.000000e-05
+[0]:[IO]:(2184.870ms) compute before cngns write actual solution file
+[0]:[IO]:(14.195ms) cngns write actual solution file
+   coarse time step   55 old time 5.500000e-04 old dt 1.000000e-05
+[0]:[IO]:(2185.336ms) compute before cngns write actual solution file
+[0]:[IO]:(13.881ms) cngns write actual solution file
+   coarse time step   56 old time 5.600000e-04 old dt 1.000000e-05
+[0]:[IO]:(2182.544ms) compute before cngns write actual solution file
+[0]:[IO]:(14.300ms) cngns write actual solution file
+   coarse time step   57 old time 5.700000e-04 old dt 1.000000e-05
+[0]:[IO]:(2185.885ms) compute before cngns write actual solution file
+[0]:[IO]:(14.683ms) cngns write actual solution file
+   coarse time step   58 old time 5.800000e-04 old dt 1.000000e-05
+[0]:[IO]:(2182.234ms) compute before cngns write actual solution file
+[0]:[IO]:(13.785ms) cngns write actual solution file
+   coarse time step   59 old time 5.900000e-04 old dt 1.000000e-05
+[0]:[IO]:(2182.755ms) compute before cngns write actual solution file
+[0]:[IO]:(13.749ms) cngns write actual solution file
+   coarse time step   60 old time 6.000000e-04 old dt 1.000000e-05
+[0]:[IO]:(2182.865ms) compute before cngns write actual solution file
+[0]:[IO]:(13.632ms) cngns write actual solution file
+   coarse time step   61 old time 6.100000e-04 old dt 1.000000e-05
+[0]:[IO]:(2182.213ms) compute before cngns write actual solution file
+[0]:[IO]:(14.082ms) cngns write actual solution file
+   coarse time step   62 old time 6.200000e-04 old dt 1.000000e-05
+[0]:[IO]:(2184.226ms) compute before cngns write actual solution file
+[0]:[IO]:(169.529ms) cngns write actual solution file
+   coarse time step   63 old time 6.300000e-04 old dt 1.000000e-05
+[0]:[IO]:(2181.170ms) compute before cngns write actual solution file
+[0]:[IO]:(14.214ms) cngns write actual solution file
+   coarse time step   64 old time 6.400000e-04 old dt 1.000000e-05
+[0]:[IO]:(2180.526ms) compute before cngns write actual solution file
+[0]:[IO]:(14.023ms) cngns write actual solution file
+   coarse time step   65 old time 6.500000e-04 old dt 1.000000e-05
+[0]:[IO]:(2180.427ms) compute before cngns write actual solution file
+[0]:[IO]:(14.173ms) cngns write actual solution file
+   coarse time step   66 old time 6.600000e-04 old dt 1.000000e-05
+[0]:[IO]:(2181.759ms) compute before cngns write actual solution file
+[0]:[IO]:(13.893ms) cngns write actual solution file
+   coarse time step   67 old time 6.700000e-04 old dt 1.000000e-05
+[0]:[IO]:(2180.869ms) compute before cngns write actual solution file
+[0]:[IO]:(82.504ms) cngns write actual solution file
+   coarse time step   68 old time 6.800000e-04 old dt 1.000000e-05
+[0]:[IO]:(2178.893ms) compute before cngns write actual solution file
+[0]:[IO]:(14.226ms) cngns write actual solution file
+   coarse time step   69 old time 6.900000e-04 old dt 1.000000e-05
+[0]:[IO]:(2182.321ms) compute before cngns write actual solution file
+[0]:[IO]:(14.915ms) cngns write actual solution file
+   coarse time step   70 old time 7.000000e-04 old dt 1.000000e-05
+[0]:[IO]:(2180.419ms) compute before cngns write actual solution file
+[0]:[IO]:(14.086ms) cngns write actual solution file
+   coarse time step   71 old time 7.100000e-04 old dt 1.000000e-05
+[0]:[IO]:(2179.177ms) compute before cngns write actual solution file
+[0]:[IO]:(13.908ms) cngns write actual solution file
+   coarse time step   72 old time 7.200000e-04 old dt 1.000000e-05
+[0]:[IO]:(2180.349ms) compute before cngns write actual solution file
+[0]:[IO]:(14.127ms) cngns write actual solution file
+   coarse time step   73 old time 7.300000e-04 old dt 1.000000e-05
+[0]:[IO]:(2178.510ms) compute before cngns write actual solution file
+[0]:[IO]:(14.884ms) cngns write actual solution file
+   coarse time step   74 old time 7.400000e-04 old dt 1.000000e-05
+[0]:[IO]:(2179.235ms) compute before cngns write actual solution file
+[0]:[IO]:(13.946ms) cngns write actual solution file
+   coarse time step   75 old time 7.500000e-04 old dt 1.000000e-05
+[0]:[IO]:(2178.476ms) compute before cngns write actual solution file
+[0]:[IO]:(13.867ms) cngns write actual solution file
+   coarse time step   76 old time 7.600000e-04 old dt 1.000000e-05
+[0]:[IO]:(2184.818ms) compute before cngns write actual solution file
+[0]:[IO]:(279.838ms) cngns write actual solution file
+   coarse time step   77 old time 7.700000e-04 old dt 1.000000e-05
+[0]:[IO]:(2178.507ms) compute before cngns write actual solution file
+[0]:[IO]:(14.026ms) cngns write actual solution file
+   coarse time step   78 old time 7.800000e-04 old dt 1.000000e-05
+[0]:[IO]:(2179.195ms) compute before cngns write actual solution file
+[0]:[IO]:(15.118ms) cngns write actual solution file
+   coarse time step   79 old time 7.900000e-04 old dt 1.000000e-05
+[0]:[IO]:(2179.426ms) compute before cngns write actual solution file
+[0]:[IO]:(14.418ms) cngns write actual solution file
+   coarse time step   80 old time 8.000000e-04 old dt 1.000000e-05
+[0]:[IO]:(2179.990ms) compute before cngns write actual solution file
+[0]:[IO]:(14.325ms) cngns write actual solution file
+   coarse time step   81 old time 8.100000e-04 old dt 1.000000e-05
+[0]:[IO]:(2181.873ms) compute before cngns write actual solution file
+[0]:[IO]:(14.820ms) cngns write actual solution file
+   coarse time step   82 old time 8.200000e-04 old dt 1.000000e-05
+[0]:[IO]:(2180.271ms) compute before cngns write actual solution file
+[0]:[IO]:(14.480ms) cngns write actual solution file
+   coarse time step   83 old time 8.300000e-04 old dt 1.000000e-05
+[0]:[IO]:(2183.708ms) compute before cngns write actual solution file
+[0]:[IO]:(17.360ms) cngns write actual solution file
+   coarse time step   84 old time 8.400000e-04 old dt 1.000000e-05
+[0]:[IO]:(2181.046ms) compute before cngns write actual solution file
+[0]:[IO]:(14.406ms) cngns write actual solution file
+   coarse time step   85 old time 8.500000e-04 old dt 1.000000e-05
+[0]:[IO]:(2182.483ms) compute before cngns write actual solution file
+[0]:[IO]:(13.721ms) cngns write actual solution file
+   coarse time step   86 old time 8.600000e-04 old dt 1.000000e-05
+[0]:[IO]:(2180.964ms) compute before cngns write actual solution file
+[0]:[IO]:(13.751ms) cngns write actual solution file
+   coarse time step   87 old time 8.700000e-04 old dt 1.000000e-05
+[0]:[IO]:(2181.259ms) compute before cngns write actual solution file
+[0]:[IO]:(13.764ms) cngns write actual solution file
+   coarse time step   88 old time 8.800000e-04 old dt 1.000000e-05
+[0]:[IO]:(2182.976ms) compute before cngns write actual solution file
+[0]:[IO]:(13.671ms) cngns write actual solution file
+   coarse time step   89 old time 8.900000e-04 old dt 1.000000e-05
+[0]:[IO]:(2183.087ms) compute before cngns write actual solution file
+[0]:[IO]:(14.001ms) cngns write actual solution file
+   coarse time step   90 old time 9.000000e-04 old dt 1.000000e-05
+[0]:[IO]:(2185.165ms) compute before cngns write actual solution file
+[0]:[IO]:(14.055ms) cngns write actual solution file
+   coarse time step   91 old time 9.100000e-04 old dt 1.000000e-05
+[0]:[IO]:(2186.159ms) compute before cngns write actual solution file
+[0]:[IO]:(14.055ms) cngns write actual solution file
+   coarse time step   92 old time 9.200000e-04 old dt 1.000000e-05
+[0]:[IO]:(2181.570ms) compute before cngns write actual solution file
+[0]:[IO]:(14.318ms) cngns write actual solution file
+   coarse time step   93 old time 9.300000e-04 old dt 1.000000e-05
+[0]:[IO]:(2179.475ms) compute before cngns write actual solution file
+[0]:[IO]:(14.527ms) cngns write actual solution file
+   coarse time step   94 old time 9.400000e-04 old dt 1.000000e-05
+[0]:[IO]:(2178.262ms) compute before cngns write actual solution file
+[0]:[IO]:(14.770ms) cngns write actual solution file
+   coarse time step   95 old time 9.500000e-04 old dt 1.000000e-05
+[0]:[IO]:(2180.109ms) compute before cngns write actual solution file
+[0]:[IO]:(14.208ms) cngns write actual solution file
+   coarse time step   96 old time 9.600000e-04 old dt 1.000000e-05
+[0]:[IO]:(2179.176ms) compute before cngns write actual solution file
+[0]:[IO]:(13.647ms) cngns write actual solution file
+   coarse time step   97 old time 9.700000e-04 old dt 1.000000e-05
+[0]:[IO]:(2180.839ms) compute before cngns write actual solution file
+[0]:[IO]:(13.967ms) cngns write actual solution file
+   coarse time step   98 old time 9.800000e-04 old dt 1.000000e-05
+[0]:[IO]:(2182.180ms) compute before cngns write actual solution file
+[0]:[IO]:(14.485ms) cngns write actual solution file
+   coarse time step   99 old time 9.900000e-04 old dt 1.000000e-05
+[0]:[IO]:(2182.945ms) compute before cngns write actual solution file
+[0]:[IO]:(14.330ms) cngns write actual solution file
+-> final time 1.000000e-03
+
+=> End computation
+[0]:[IO]:(0.021ms) compute before cngns write actual final solution file
+[0]:[IO]:(13.584ms) cngns write actual final solution file
+
+   Total Mass difference: ------------- 3.927418341440614e-04
+   Relative Mass difference: ---------- 6.464618120253833e-04
+
+   Total X-momentum difference: ------- 6.819528398595062e+01
+   Relative X-momentum difference: ---- 1.000000000000000e+00
+
+   Total Y-momentum difference: ------- 1.997408666522204e-15
+   Relative Y-momentum difference: ---- 1.000000000000000e+00
+
+   Total Z-momentum difference: ------- 1.456340878469291e-15
+   Relative Z-momentum difference: ---- 1.000000000000000e+00
+
+-> EulerOperator Timings
+   Time for Kernels ------------------- 0.000000000000000e+00 s
+   Time for Exchanges ----------------- 0.000000000000000e+00 s
+   IO all: ---------------------------- 2.26092 (s)
+   IO structure 1: -------------------- 0.0176113 (s)
+   IO structure 2: -------------------- 0.0334825 (s)
+   IO structure 2a: ------------------- 0.0223838 (s)
+   IO solution 1: --------------------- 1.79933 (s)
+   IO solution 1a: -------------------- 1.1574 (s)
+   IO solution 2: --------------------- 0.252124 (s)
+   IO solution 2a: -------------------- 3.037e-06 (s)
+
+-> Timings
+   Time for advance ------------------- 219.978 s
+   Total run time --------------------- 221.211 s
+[0]:[IO]:(926.417ms) compute before return

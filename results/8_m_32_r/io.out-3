@@ -1,0 +1,209 @@
+[0]:[IO]:(2683.920ms) compute before creating plot directory
+[0]:[IO]:(0.026ms) plot directory creation
+[0]:[IO]:(311.920ms) compute before write cgns grid files
+[0]:[IO]:(161.936ms) write cgns grid files
+[0]:[IO]:(0.000ms) compute before write initial solution files
+[0]:[IO]:(71.261ms) IO: write cgns solution files
+[0]:[IO]:(130.822ms) compute before cngns write actual solution file
+[0]:[IO]:(42.606ms) cngns write actual solution file
+[0]:[IO]:(124.855ms) compute before cngns write actual solution file
+[0]:[IO]:(43.232ms) cngns write actual solution file
+[0]:[IO]:(126.361ms) compute before cngns write actual solution file
+[0]:[IO]:(45.805ms) cngns write actual solution file
+[0]:[IO]:(128.289ms) compute before cngns write actual solution file
+[0]:[IO]:(42.695ms) cngns write actual solution file
+[0]:[IO]:(124.446ms) compute before cngns write actual solution file
+[0]:[IO]:(43.037ms) cngns write actual solution file
+[0]:[IO]:(126.600ms) compute before cngns write actual solution file
+[0]:[IO]:(41.269ms) cngns write actual solution file
+[0]:[IO]:(126.344ms) compute before cngns write actual solution file
+[0]:[IO]:(42.389ms) cngns write actual solution file
+[0]:[IO]:(127.356ms) compute before cngns write actual solution file
+[0]:[IO]:(41.586ms) cngns write actual solution file
+[0]:[IO]:(127.385ms) compute before cngns write actual solution file
+[0]:[IO]:(42.043ms) cngns write actual solution file
+[0]:[IO]:(127.823ms) compute before cngns write actual solution file
+[0]:[IO]:(41.090ms) cngns write actual solution file
+[0]:[IO]:(131.905ms) compute before cngns write actual solution file
+[0]:[IO]:(603.492ms) cngns write actual solution file
+[0]:[IO]:(125.862ms) compute before cngns write actual solution file
+[0]:[IO]:(43.280ms) cngns write actual solution file
+[0]:[IO]:(125.933ms) compute before cngns write actual solution file
+[0]:[IO]:(41.977ms) cngns write actual solution file
+[0]:[IO]:(126.975ms) compute before cngns write actual solution file
+[0]:[IO]:(43.830ms) cngns write actual solution file
+[0]:[IO]:(125.040ms) compute before cngns write actual solution file
+[0]:[IO]:(41.218ms) cngns write actual solution file
+[0]:[IO]:(126.456ms) compute before cngns write actual solution file
+[0]:[IO]:(41.272ms) cngns write actual solution file
+[0]:[IO]:(127.499ms) compute before cngns write actual solution file
+[0]:[IO]:(41.092ms) cngns write actual solution file
+[0]:[IO]:(126.399ms) compute before cngns write actual solution file
+[0]:[IO]:(42.383ms) cngns write actual solution file
+[0]:[IO]:(125.107ms) compute before cngns write actual solution file
+[0]:[IO]:(44.016ms) cngns write actual solution file
+[0]:[IO]:(125.487ms) compute before cngns write actual solution file
+[0]:[IO]:(42.633ms) cngns write actual solution file
+[0]:[IO]:(126.043ms) compute before cngns write actual solution file
+[0]:[IO]:(41.565ms) cngns write actual solution file
+[0]:[IO]:(126.213ms) compute before cngns write actual solution file
+[0]:[IO]:(43.070ms) cngns write actual solution file
+[0]:[IO]:(126.034ms) compute before cngns write actual solution file
+[0]:[IO]:(41.583ms) cngns write actual solution file
+[0]:[IO]:(127.028ms) compute before cngns write actual solution file
+[0]:[IO]:(43.457ms) cngns write actual solution file
+[0]:[IO]:(126.736ms) compute before cngns write actual solution file
+[0]:[IO]:(40.800ms) cngns write actual solution file
+[0]:[IO]:(124.241ms) compute before cngns write actual solution file
+[0]:[IO]:(41.531ms) cngns write actual solution file
+[0]:[IO]:(126.045ms) compute before cngns write actual solution file
+[0]:[IO]:(42.921ms) cngns write actual solution file
+[0]:[IO]:(128.191ms) compute before cngns write actual solution file
+[0]:[IO]:(44.065ms) cngns write actual solution file
+[0]:[IO]:(128.455ms) compute before cngns write actual solution file
+[0]:[IO]:(44.512ms) cngns write actual solution file
+[0]:[IO]:(127.337ms) compute before cngns write actual solution file
+[0]:[IO]:(41.381ms) cngns write actual solution file
+[0]:[IO]:(126.203ms) compute before cngns write actual solution file
+[0]:[IO]:(42.252ms) cngns write actual solution file
+[0]:[IO]:(126.499ms) compute before cngns write actual solution file
+[0]:[IO]:(41.240ms) cngns write actual solution file
+[0]:[IO]:(127.145ms) compute before cngns write actual solution file
+[0]:[IO]:(41.598ms) cngns write actual solution file
+[0]:[IO]:(127.604ms) compute before cngns write actual solution file
+[0]:[IO]:(41.357ms) cngns write actual solution file
+[0]:[IO]:(130.988ms) compute before cngns write actual solution file
+[0]:[IO]:(45.074ms) cngns write actual solution file
+[0]:[IO]:(127.491ms) compute before cngns write actual solution file
+[0]:[IO]:(41.534ms) cngns write actual solution file
+[0]:[IO]:(127.439ms) compute before cngns write actual solution file
+[0]:[IO]:(309.427ms) cngns write actual solution file
+[0]:[IO]:(125.537ms) compute before cngns write actual solution file
+[0]:[IO]:(42.984ms) cngns write actual solution file
+[0]:[IO]:(127.860ms) compute before cngns write actual solution file
+[0]:[IO]:(41.462ms) cngns write actual solution file
+[0]:[IO]:(127.891ms) compute before cngns write actual solution file
+[0]:[IO]:(41.828ms) cngns write actual solution file
+[0]:[IO]:(126.005ms) compute before cngns write actual solution file
+[0]:[IO]:(41.379ms) cngns write actual solution file
+[0]:[IO]:(127.933ms) compute before cngns write actual solution file
+[0]:[IO]:(41.041ms) cngns write actual solution file
+[0]:[IO]:(129.182ms) compute before cngns write actual solution file
+[0]:[IO]:(41.711ms) cngns write actual solution file
+[0]:[IO]:(126.975ms) compute before cngns write actual solution file
+[0]:[IO]:(42.300ms) cngns write actual solution file
+[0]:[IO]:(126.932ms) compute before cngns write actual solution file
+[0]:[IO]:(41.328ms) cngns write actual solution file
+[0]:[IO]:(125.782ms) compute before cngns write actual solution file
+[0]:[IO]:(41.233ms) cngns write actual solution file
+[0]:[IO]:(126.662ms) compute before cngns write actual solution file
+[0]:[IO]:(42.582ms) cngns write actual solution file
+[0]:[IO]:(126.204ms) compute before cngns write actual solution file
+[0]:[IO]:(41.957ms) cngns write actual solution file
+[0]:[IO]:(125.499ms) compute before cngns write actual solution file
+[0]:[IO]:(41.628ms) cngns write actual solution file
+[0]:[IO]:(124.940ms) compute before cngns write actual solution file
+[0]:[IO]:(43.767ms) cngns write actual solution file
+[0]:[IO]:(128.886ms) compute before cngns write actual solution file
+[0]:[IO]:(44.528ms) cngns write actual solution file
+[0]:[IO]:(125.375ms) compute before cngns write actual solution file
+[0]:[IO]:(43.233ms) cngns write actual solution file
+[0]:[IO]:(127.551ms) compute before cngns write actual solution file
+[0]:[IO]:(41.743ms) cngns write actual solution file
+[0]:[IO]:(125.752ms) compute before cngns write actual solution file
+[0]:[IO]:(42.576ms) cngns write actual solution file
+[0]:[IO]:(127.658ms) compute before cngns write actual solution file
+[0]:[IO]:(41.671ms) cngns write actual solution file
+[0]:[IO]:(129.846ms) compute before cngns write actual solution file
+[0]:[IO]:(42.845ms) cngns write actual solution file
+[0]:[IO]:(126.689ms) compute before cngns write actual solution file
+[0]:[IO]:(40.838ms) cngns write actual solution file
+[0]:[IO]:(127.298ms) compute before cngns write actual solution file
+[0]:[IO]:(41.524ms) cngns write actual solution file
+[0]:[IO]:(129.442ms) compute before cngns write actual solution file
+[0]:[IO]:(45.211ms) cngns write actual solution file
+[0]:[IO]:(127.337ms) compute before cngns write actual solution file
+[0]:[IO]:(42.362ms) cngns write actual solution file
+[0]:[IO]:(125.641ms) compute before cngns write actual solution file
+[0]:[IO]:(41.867ms) cngns write actual solution file
+[0]:[IO]:(126.698ms) compute before cngns write actual solution file
+[0]:[IO]:(43.436ms) cngns write actual solution file
+[0]:[IO]:(125.064ms) compute before cngns write actual solution file
+[0]:[IO]:(43.489ms) cngns write actual solution file
+[0]:[IO]:(125.273ms) compute before cngns write actual solution file
+[0]:[IO]:(43.213ms) cngns write actual solution file
+[0]:[IO]:(126.121ms) compute before cngns write actual solution file
+[0]:[IO]:(372.508ms) cngns write actual solution file
+[0]:[IO]:(128.612ms) compute before cngns write actual solution file
+[0]:[IO]:(42.264ms) cngns write actual solution file
+[0]:[IO]:(124.578ms) compute before cngns write actual solution file
+[0]:[IO]:(44.139ms) cngns write actual solution file
+[0]:[IO]:(124.363ms) compute before cngns write actual solution file
+[0]:[IO]:(42.209ms) cngns write actual solution file
+[0]:[IO]:(124.538ms) compute before cngns write actual solution file
+[0]:[IO]:(42.272ms) cngns write actual solution file
+[0]:[IO]:(125.601ms) compute before cngns write actual solution file
+[0]:[IO]:(43.438ms) cngns write actual solution file
+[0]:[IO]:(124.328ms) compute before cngns write actual solution file
+[0]:[IO]:(42.620ms) cngns write actual solution file
+[0]:[IO]:(124.865ms) compute before cngns write actual solution file
+[0]:[IO]:(42.272ms) cngns write actual solution file
+[0]:[IO]:(129.124ms) compute before cngns write actual solution file
+[0]:[IO]:(43.577ms) cngns write actual solution file
+[0]:[IO]:(126.470ms) compute before cngns write actual solution file
+[0]:[IO]:(42.191ms) cngns write actual solution file
+[0]:[IO]:(126.296ms) compute before cngns write actual solution file
+[0]:[IO]:(41.088ms) cngns write actual solution file
+[0]:[IO]:(128.208ms) compute before cngns write actual solution file
+[0]:[IO]:(42.788ms) cngns write actual solution file
+[0]:[IO]:(124.449ms) compute before cngns write actual solution file
+[0]:[IO]:(42.968ms) cngns write actual solution file
+[0]:[IO]:(125.645ms) compute before cngns write actual solution file
+[0]:[IO]:(41.539ms) cngns write actual solution file
+[0]:[IO]:(124.364ms) compute before cngns write actual solution file
+[0]:[IO]:(41.764ms) cngns write actual solution file
+[0]:[IO]:(126.779ms) compute before cngns write actual solution file
+[0]:[IO]:(42.702ms) cngns write actual solution file
+[0]:[IO]:(125.673ms) compute before cngns write actual solution file
+[0]:[IO]:(42.490ms) cngns write actual solution file
+[0]:[IO]:(127.539ms) compute before cngns write actual solution file
+[0]:[IO]:(41.096ms) cngns write actual solution file
+[0]:[IO]:(125.663ms) compute before cngns write actual solution file
+[0]:[IO]:(41.886ms) cngns write actual solution file
+[0]:[IO]:(125.955ms) compute before cngns write actual solution file
+[0]:[IO]:(41.662ms) cngns write actual solution file
+[0]:[IO]:(128.309ms) compute before cngns write actual solution file
+[0]:[IO]:(41.231ms) cngns write actual solution file
+[0]:[IO]:(126.351ms) compute before cngns write actual solution file
+[0]:[IO]:(42.863ms) cngns write actual solution file
+[0]:[IO]:(126.573ms) compute before cngns write actual solution file
+[0]:[IO]:(43.747ms) cngns write actual solution file
+[0]:[IO]:(124.683ms) compute before cngns write actual solution file
+[0]:[IO]:(41.058ms) cngns write actual solution file
+[0]:[IO]:(127.295ms) compute before cngns write actual solution file
+[0]:[IO]:(41.175ms) cngns write actual solution file
+[0]:[IO]:(127.420ms) compute before cngns write actual solution file
+[0]:[IO]:(42.935ms) cngns write actual solution file
+[0]:[IO]:(126.472ms) compute before cngns write actual solution file
+[0]:[IO]:(41.655ms) cngns write actual solution file
+[0]:[IO]:(127.212ms) compute before cngns write actual solution file
+[0]:[IO]:(41.590ms) cngns write actual solution file
+[0]:[IO]:(125.089ms) compute before cngns write actual solution file
+[0]:[IO]:(347.257ms) cngns write actual solution file
+[0]:[IO]:(126.890ms) compute before cngns write actual solution file
+[0]:[IO]:(43.893ms) cngns write actual solution file
+[0]:[IO]:(130.463ms) compute before cngns write actual solution file
+[0]:[IO]:(44.662ms) cngns write actual solution file
+[0]:[IO]:(127.100ms) compute before cngns write actual solution file
+[0]:[IO]:(41.714ms) cngns write actual solution file
+[0]:[IO]:(126.652ms) compute before cngns write actual solution file
+[0]:[IO]:(40.540ms) cngns write actual solution file
+[0]:[IO]:(126.579ms) compute before cngns write actual solution file
+[0]:[IO]:(44.436ms) cngns write actual solution file
+[0]:[IO]:(125.488ms) compute before cngns write actual solution file
+[0]:[IO]:(41.246ms) cngns write actual solution file
+[0]:[IO]:(124.859ms) compute before cngns write actual solution file
+[0]:[IO]:(43.762ms) cngns write actual solution file
+[0]:[IO]:(2.220ms) compute before cngns write actual final solution file
+[0]:[IO]:(37.040ms) cngns write actual final solution file
+[0]:[IO]:(1000.163ms) compute before return

@@ -1,0 +1,282 @@
+=> Parallel mode
+-> Processing element 120 of 127 (128 total)
+   Hostname --------------------------- nid004397
+   PID -------------------------------- 1866767
+
+=> Parameters
+
+-> User define macros
+
+-> Parameters for 'plot'
+   Plot prefix: ----------------------- plot/member_004/ShockTube
+   Plot interval: --------------------- 1
+
+-> Parameters for 'grid'
+   Number of cells: ------------------- (31,31,31)
+   Computational domain start: -------- (0,0,0)
+   Computational domain length: ------- (1,1,1)
+   Fixed dx: -------------------------- (0.0322581,0.0322581,0.0322581)
+
+-> Parameters for 'solver'
+   Time integration method: ----------- RK4
+   Fixed dt: -------------------------- 1e-05
+   Initial time: ---------------------- 0
+   Maximum steps: --------------------- 100
+   Limiter: --------------------------- 1
+   Slope Flattening: ------------------ 1
+   DC limiting: ----------------------- 0
+   Artificial Viscosity: -------------- 1
+   Artificial Viscosity Coeff: -------- 0.3
+   Memory Exchange Model: ------------- SHMEM
+   Problem: --------------------------- ShockTube
+
+-> Local domain info
+   Face bounding box: ----------------- (16,16,24):(23,23,27)
+   Face number of valid bricks: ------- 4
+   Face number of core bricks: -------- 4
+   Face number of ghost bricks: ------- 44
+   Face bricks:
+(  16,  12,  24 :   19,  15,  27) [G]
+(  20,  12,  20 :   23,  15,  23) [G]
+(  20,  12,  28 :   23,  15,  31) [G]
+(  20,  16,  20 :   23,  19,  23) [G]
+(  12,  24,  28 :   15,  27,  31) [G]
+(  20,  16,  28 :   23,  19,  31) [G]
+(  24,  24,  28 :   27,  27,  31) [G]
+(  12,  20,  20 :   15,  23,  23) [G]
+(  12,  16,  28 :   15,  19,  31) [G]
+(  16,  16,  20 :   19,  19,  23) [G]
+(  24,  24,  24 :   27,  27,  27) [G]
+(  12,  12,  24 :   15,  15,  27) [G]
+(  20,  12,  24 :   23,  15,  27) [G]
+(  16,  20,  20 :   19,  23,  23) [G]
+(  12,  12,  20 :   15,  15,  23) [G]
+(  20,  24,  20 :   23,  27,  23) [G]
+(  20,  16,  24 :   23,  19,  27) [C]
+(  16,  16,  28 :   19,  19,  31) [G]
+(  12,  12,  28 :   15,  15,  31) [G]
+(  24,  12,  20 :   27,  15,  23) [G]
+(  12,  20,  28 :   15,  23,  31) [G]
+(  24,  20,  20 :   27,  23,  23) [G]
+(  16,  12,  20 :   19,  15,  23) [G]
+(  24,  12,  28 :   27,  15,  31) [G]
+(  24,  16,  20 :   27,  19,  23) [G]
+(  16,  16,  24 :   19,  19,  27) [C]
+(  20,  20,  24 :   23,  23,  27) [C]
+(  24,  12,  24 :   27,  15,  27) [G]
+(  12,  20,  24 :   15,  23,  27) [G]
+(  24,  16,  24 :   27,  19,  27) [G]
+(  20,  24,  24 :   23,  27,  27) [G]
+(  16,  24,  24 :   19,  27,  27) [G]
+(  24,  20,  28 :   27,  23,  31) [G]
+(  16,  24,  28 :   19,  27,  31) [G]
+(  16,  12,  28 :   19,  15,  31) [G]
+(  12,  24,  24 :   15,  27,  27) [G]
+(  20,  20,  20 :   23,  23,  23) [G]
+(  16,  24,  20 :   19,  27,  23) [G]
+(  16,  20,  24 :   19,  23,  27) [C]
+(  20,  20,  28 :   23,  23,  31) [G]
+(  12,  16,  20 :   15,  19,  23) [G]
+(  12,  24,  20 :   15,  27,  23) [G]
+(  24,  16,  28 :   27,  19,  31) [G]
+(  12,  16,  24 :   15,  19,  27) [G]
+(  24,  20,  24 :   27,  23,  27) [G]
+(  24,  24,  20 :   27,  27,  23) [G]
+(  16,  20,  28 :   19,  23,  31) [G]
+(  20,  24,  28 :   23,  27,  31) [G]
+   Cell bounding box: ----------------- (16,16,24):(23,23,27)
+   Cell number of bricks: ------------- 4
+   Cell bricks:
+(  16,  12,  24 :   19,  15,  27) [G,0]
+(  20,  12,  20 :   23,  15,  23) [G,0]
+(  20,  12,  28 :   23,  15,  31) [G,1]
+(  20,  16,  20 :   23,  19,  23) [G,0]
+(  12,  24,  28 :   15,  27,  31) [G,1]
+(  20,  16,  28 :   23,  19,  31) [G,1]
+(  24,  24,  28 :   27,  27,  31) [G,1]
+(  12,  20,  20 :   15,  23,  23) [G,0]
+(  12,  16,  28 :   15,  19,  31) [G,1]
+(  16,  16,  20 :   19,  19,  23) [G,0]
+(  24,  24,  24 :   27,  27,  27) [G,0]
+(  12,  12,  24 :   15,  15,  27) [G,0]
+(  20,  12,  24 :   23,  15,  27) [G,0]
+(  16,  20,  20 :   19,  23,  23) [G,0]
+(  12,  12,  20 :   15,  15,  23) [G,0]
+(  20,  24,  20 :   23,  27,  23) [G,0]
+(  20,  16,  24 :   23,  19,  27) [C,0]
+(  16,  16,  28 :   19,  19,  31) [G,1]
+(  12,  12,  28 :   15,  15,  31) [G,1]
+(  24,  12,  20 :   27,  15,  23) [G,0]
+(  12,  20,  28 :   15,  23,  31) [G,1]
+(  24,  20,  20 :   27,  23,  23) [G,0]
+(  16,  12,  20 :   19,  15,  23) [G,0]
+(  24,  12,  28 :   27,  15,  31) [G,1]
+(  24,  16,  20 :   27,  19,  23) [G,0]
+(  16,  16,  24 :   19,  19,  27) [C,0]
+(  20,  20,  24 :   23,  23,  27) [C,0]
+(  24,  12,  24 :   27,  15,  27) [G,0]
+(  12,  20,  24 :   15,  23,  27) [G,0]
+(  24,  16,  24 :   27,  19,  27) [G,0]
+(  20,  24,  24 :   23,  27,  27) [G,0]
+(  16,  24,  24 :   19,  27,  27) [G,0]
+(  24,  20,  28 :   27,  23,  31) [G,1]
+(  16,  24,  28 :   19,  27,  31) [G,1]
+(  16,  12,  28 :   19,  15,  31) [G,1]
+(  12,  24,  24 :   15,  27,  27) [G,0]
+(  20,  20,  20 :   23,  23,  23) [G,0]
+(  16,  24,  20 :   19,  27,  23) [G,0]
+(  16,  20,  24 :   19,  23,  27) [C,0]
+(  20,  20,  28 :   23,  23,  31) [G,1]
+(  12,  16,  20 :   15,  19,  23) [G,0]
+(  12,  24,  20 :   15,  27,  23) [G,0]
+(  24,  16,  28 :   27,  19,  31) [G,1]
+(  12,  16,  24 :   15,  19,  27) [G,0]
+(  24,  20,  24 :   27,  23,  27) [G,0]
+(  24,  24,  20 :   27,  27,  23) [G,0]
+(  16,  20,  28 :   19,  23,  31) [G,1]
+(  20,  24,  28 :   23,  27,  31) [G,1]
+
+-> Global domain info
+   Face number of valid bricks: ------- 512
+   Face number of core bricks: -------- 512
+   Face number of ghost bricks: ------- 3800
+
+-> Conservation reference
+   Initial mass: ---------------------- 6.538440176720858e-01
+   Initial x-momentum: ---------------- 0.000000000000000e+00
+   Initial y-momentum: ---------------- 0.000000000000000e+00
+   Initial z-momentum: ---------------- 0.000000000000000e+00
+
+=> Begin computation
+   coarse time step    0 old time 0.000000e+00 old dt 1.000000e-05
+   coarse time step    1 old time 1.000000e-05 old dt 1.000000e-05
+   coarse time step    2 old time 2.000000e-05 old dt 1.000000e-05
+   coarse time step    3 old time 3.000000e-05 old dt 1.000000e-05
+   coarse time step    4 old time 4.000000e-05 old dt 1.000000e-05
+   coarse time step    5 old time 5.000000e-05 old dt 1.000000e-05
+   coarse time step    6 old time 6.000000e-05 old dt 1.000000e-05
+   coarse time step    7 old time 7.000000e-05 old dt 1.000000e-05
+   coarse time step    8 old time 8.000000e-05 old dt 1.000000e-05
+   coarse time step    9 old time 9.000000e-05 old dt 1.000000e-05
+   coarse time step   10 old time 1.000000e-04 old dt 1.000000e-05
+   coarse time step   11 old time 1.100000e-04 old dt 1.000000e-05
+   coarse time step   12 old time 1.200000e-04 old dt 1.000000e-05
+   coarse time step   13 old time 1.300000e-04 old dt 1.000000e-05
+   coarse time step   14 old time 1.400000e-04 old dt 1.000000e-05
+   coarse time step   15 old time 1.500000e-04 old dt 1.000000e-05
+   coarse time step   16 old time 1.600000e-04 old dt 1.000000e-05
+   coarse time step   17 old time 1.700000e-04 old dt 1.000000e-05
+   coarse time step   18 old time 1.800000e-04 old dt 1.000000e-05
+   coarse time step   19 old time 1.900000e-04 old dt 1.000000e-05
+   coarse time step   20 old time 2.000000e-04 old dt 1.000000e-05
+   coarse time step   21 old time 2.100000e-04 old dt 1.000000e-05
+   coarse time step   22 old time 2.200000e-04 old dt 1.000000e-05
+   coarse time step   23 old time 2.300000e-04 old dt 1.000000e-05
+   coarse time step   24 old time 2.400000e-04 old dt 1.000000e-05
+   coarse time step   25 old time 2.500000e-04 old dt 1.000000e-05
+   coarse time step   26 old time 2.600000e-04 old dt 1.000000e-05
+   coarse time step   27 old time 2.700000e-04 old dt 1.000000e-05
+   coarse time step   28 old time 2.800000e-04 old dt 1.000000e-05
+   coarse time step   29 old time 2.900000e-04 old dt 1.000000e-05
+   coarse time step   30 old time 3.000000e-04 old dt 1.000000e-05
+   coarse time step   31 old time 3.100000e-04 old dt 1.000000e-05
+   coarse time step   32 old time 3.200000e-04 old dt 1.000000e-05
+   coarse time step   33 old time 3.300000e-04 old dt 1.000000e-05
+   coarse time step   34 old time 3.400000e-04 old dt 1.000000e-05
+   coarse time step   35 old time 3.500000e-04 old dt 1.000000e-05
+   coarse time step   36 old time 3.600000e-04 old dt 1.000000e-05
+   coarse time step   37 old time 3.700000e-04 old dt 1.000000e-05
+   coarse time step   38 old time 3.800000e-04 old dt 1.000000e-05
+   coarse time step   39 old time 3.900000e-04 old dt 1.000000e-05
+   coarse time step   40 old time 4.000000e-04 old dt 1.000000e-05
+   coarse time step   41 old time 4.100000e-04 old dt 1.000000e-05
+   coarse time step   42 old time 4.200000e-04 old dt 1.000000e-05
+   coarse time step   43 old time 4.300000e-04 old dt 1.000000e-05
+   coarse time step   44 old time 4.400000e-04 old dt 1.000000e-05
+   coarse time step   45 old time 4.500000e-04 old dt 1.000000e-05
+   coarse time step   46 old time 4.600000e-04 old dt 1.000000e-05
+   coarse time step   47 old time 4.700000e-04 old dt 1.000000e-05
+   coarse time step   48 old time 4.800000e-04 old dt 1.000000e-05
+   coarse time step   49 old time 4.900000e-04 old dt 1.000000e-05
+   coarse time step   50 old time 5.000000e-04 old dt 1.000000e-05
+   coarse time step   51 old time 5.100000e-04 old dt 1.000000e-05
+   coarse time step   52 old time 5.200000e-04 old dt 1.000000e-05
+   coarse time step   53 old time 5.300000e-04 old dt 1.000000e-05
+   coarse time step   54 old time 5.400000e-04 old dt 1.000000e-05
+   coarse time step   55 old time 5.500000e-04 old dt 1.000000e-05
+   coarse time step   56 old time 5.600000e-04 old dt 1.000000e-05
+   coarse time step   57 old time 5.700000e-04 old dt 1.000000e-05
+   coarse time step   58 old time 5.800000e-04 old dt 1.000000e-05
+   coarse time step   59 old time 5.900000e-04 old dt 1.000000e-05
+   coarse time step   60 old time 6.000000e-04 old dt 1.000000e-05
+   coarse time step   61 old time 6.100000e-04 old dt 1.000000e-05
+   coarse time step   62 old time 6.200000e-04 old dt 1.000000e-05
+   coarse time step   63 old time 6.300000e-04 old dt 1.000000e-05
+   coarse time step   64 old time 6.400000e-04 old dt 1.000000e-05
+   coarse time step   65 old time 6.500000e-04 old dt 1.000000e-05
+   coarse time step   66 old time 6.600000e-04 old dt 1.000000e-05
+   coarse time step   67 old time 6.700000e-04 old dt 1.000000e-05
+   coarse time step   68 old time 6.800000e-04 old dt 1.000000e-05
+   coarse time step   69 old time 6.900000e-04 old dt 1.000000e-05
+   coarse time step   70 old time 7.000000e-04 old dt 1.000000e-05
+   coarse time step   71 old time 7.100000e-04 old dt 1.000000e-05
+   coarse time step   72 old time 7.200000e-04 old dt 1.000000e-05
+   coarse time step   73 old time 7.300000e-04 old dt 1.000000e-05
+   coarse time step   74 old time 7.400000e-04 old dt 1.000000e-05
+   coarse time step   75 old time 7.500000e-04 old dt 1.000000e-05
+   coarse time step   76 old time 7.600000e-04 old dt 1.000000e-05
+   coarse time step   77 old time 7.700000e-04 old dt 1.000000e-05
+   coarse time step   78 old time 7.800000e-04 old dt 1.000000e-05
+   coarse time step   79 old time 7.900000e-04 old dt 1.000000e-05
+   coarse time step   80 old time 8.000000e-04 old dt 1.000000e-05
+   coarse time step   81 old time 8.100000e-04 old dt 1.000000e-05
+   coarse time step   82 old time 8.200000e-04 old dt 1.000000e-05
+   coarse time step   83 old time 8.300000e-04 old dt 1.000000e-05
+   coarse time step   84 old time 8.400000e-04 old dt 1.000000e-05
+   coarse time step   85 old time 8.500000e-04 old dt 1.000000e-05
+   coarse time step   86 old time 8.600000e-04 old dt 1.000000e-05
+   coarse time step   87 old time 8.700000e-04 old dt 1.000000e-05
+   coarse time step   88 old time 8.800000e-04 old dt 1.000000e-05
+   coarse time step   89 old time 8.900000e-04 old dt 1.000000e-05
+   coarse time step   90 old time 9.000000e-04 old dt 1.000000e-05
+   coarse time step   91 old time 9.100000e-04 old dt 1.000000e-05
+   coarse time step   92 old time 9.200000e-04 old dt 1.000000e-05
+   coarse time step   93 old time 9.300000e-04 old dt 1.000000e-05
+   coarse time step   94 old time 9.400000e-04 old dt 1.000000e-05
+   coarse time step   95 old time 9.500000e-04 old dt 1.000000e-05
+   coarse time step   96 old time 9.600000e-04 old dt 1.000000e-05
+   coarse time step   97 old time 9.700000e-04 old dt 1.000000e-05
+   coarse time step   98 old time 9.800000e-04 old dt 1.000000e-05
+   coarse time step   99 old time 9.900000e-04 old dt 1.000000e-05
+-> final time 1.000000e-03
+
+=> End computation
+
+   Total Mass difference: ------------- 3.668326991961735e-03
+   Relative Mass difference: ---------- 5.579099802051696e-03
+
+   Total X-momentum difference: ------- 9.695602858289260e+01
+   Relative X-momentum difference: ---- 1.000000000000000e+00
+
+   Total Y-momentum difference: ------- 2.064893144771451e-15
+   Relative Y-momentum difference: ---- 1.000000000000000e+00
+
+   Total Z-momentum difference: ------- 1.723473604955191e-15
+   Relative Z-momentum difference: ---- 1.000000000000000e+00
+
+-> EulerOperator Timings
+   Time for Kernels ------------------- 0.000000000000000e+00 s
+   Time for Exchanges ----------------- 0.000000000000000e+00 s
+   IO all: ---------------------------- 10.0618 (s)
+   IO structure 1: -------------------- 1.81e-07 (s)
+   IO structure 2: -------------------- 0.509466 (s)
+   IO structure 2a: ------------------- 0.416836 (s)
+   IO solution 1: --------------------- 8.9055 (s)
+   IO solution 1a: -------------------- 7.78172 (s)
+   IO solution 2: --------------------- 0.37647 (s)
+   IO solution 2a: -------------------- 3.061e-06 (s)
+
+-> Timings
+   Time for advance ------------------- 12.4597 s
+   Total run time --------------------- 17.8136 s
+4 s
