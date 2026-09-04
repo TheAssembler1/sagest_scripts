@@ -59,4 +59,3 @@ perl cudaToHip.pl -r -p .
 pushd lib/test/HashBrick
 make -j16 GPU=TRUE HIPARCH="--offload-arch=gfx942" run
 popd
-lewis153
